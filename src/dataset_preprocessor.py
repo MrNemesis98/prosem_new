@@ -51,20 +51,20 @@ def create_output_table(input_file, output_file, label, search_words):
     print(f"Process finished! Output saved to {output_file}.")
 
 
-input_file = "corona/raw/non_cpd/prosem_data_corpus-corona_term-warum.csv"
-output_file = "corona/preprocessed/non_cpd/prosem_data_corpus-corona_term-warum_processed.csv"
-label = "corona"
+input_file = "../data/raw_and_preprocessing/web2/raw/non_cpd/prosem_data_corpus-web2_term-warum.csv"
+output_file = ("../data/raw_and_preprocessing/web2/preprocessed/non_cpd/"
+               "prosem_data_corpus-web2_term-warum_processed.csv")
+label = "web2"
 
 """Search word lists for direct_cpd terms"""
-# search_words = ["Maske", "Masken", "'Maske", "Maske."]
-# search_words = ["Mutation", "Mutationen"]
+# search_words = ["Maske", "Masken", "maske", "masken"]
+# search_words = ["Mutation", "Mutationen", "mutation", "mutationen"]
 # search_words = ["Querdenker", "Querdenkers", "Querdenkern", "'Querdenker"]
-# search_words = ["Variante", "Variante'", "Variante.", "'Variante", "'Variante'", "Varianten", "Varianten.", #
-#                 "'Varianten'", "Variant", "'Variant'"]
-# search_words = ["Virus", "Virus'", "Virus.", "'Virus", "'Virus'", "Viren", "Viren.", "'Viren'"]
+# search_words = ["Variante", "Variant", "Varianten", "variante", "variant", "varianten"]
+# search_words = ["Virus", "Viren", "virus", "viren"]
 
 """Search word lists for indirect_cpd terms"""
-# search_words = ["Haus", "Hause", "zuhause", "Häuser", "Häusern", "Hauses"]
+# search_words = ["Haus", "Hause", "zuhause", "Häuser", "Häusern", "Hauses", "haus", "hause"]
 # search_words = ["Leben", "Lebens"]
 # search_words = ["Mensch", "Menschen"]
 # search_words = ["Tier", "Tieres", "Tiere", "Tieren"]

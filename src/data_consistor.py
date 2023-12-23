@@ -23,6 +23,7 @@ def scan_for_errors(file, make_corrections=False):
             print(counts)
 
 
-scan_for_errors("corona/preprocessed/non_cpd/prosem_data_corpus-corona_term-warum_processed.csv",
+scan_for_errors("../data/raw_and_preprocessing/web2/preprocessed/non_cpd/"
+                "prosem_data_corpus-web2_term-warum_processed.csv",
                 make_corrections=False)
 
