@@ -1,4 +1,7 @@
-This project is a copy from the existing repository "cltrier_prosem" by Simon Münker (@smnmnkr) from Trier University. The respective python files are my own extensions for data preprocessing. Furthermore I changed the folder structures for better organizing of my own data.
+This project is a copy from the existing repository "cltrier_prosem" by Simon Münker (@smnmnkr) from Trier University. 
+https://github.com/smnmnkr/cltrier_prosem
+
+The respective python files are my own extensions for data preprocessing. Furthermore I changed the folder structures for better organizing of my own data.
 
 
 Instruktionen:
